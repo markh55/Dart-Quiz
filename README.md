@@ -6,6 +6,7 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
 
 1. [Planning](#Planning)
      * [User Stories](#UserStories)
+     * [Wireframes](#Wirerames)
 
 
 ## Planning
@@ -15,3 +16,19 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
   * To be simple and invitiong for the user.
   * Enjoyable to play.
   * Test the users darts knowledge without losing enjoyment.
+
+
+## Wireframes
+
+### Home Page - Browser
+
+![Broswer ](https://github.com/user-attachments/assets/1ab0e065-bd3b-449f-a6c7-37560e1a8a81)
+
+### Home Page - Tablet
+
+![Tablet](https://github.com/user-attachments/assets/5cfa0b76-d4c7-4017-b88e-86dbbf9dcd60)
+
+
+### Home Page - Mobile
+
+![Mobile](https://github.com/user-attachments/assets/24670459-1528-4448-b7b3-4702444ed140)
