@@ -20,15 +20,15 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
 
 ## Wireframes
 
-### Home Page - Browser
+### Browser
 
 ![Broswer ](https://github.com/user-attachments/assets/1ab0e065-bd3b-449f-a6c7-37560e1a8a81)
 
-### Home Page - Tablet
+### Tablet
 
 ![Tablet](https://github.com/user-attachments/assets/5cfa0b76-d4c7-4017-b88e-86dbbf9dcd60)
 
 
-### Home Page - Mobile
+### Mobile
 
 ![Mobile](https://github.com/user-attachments/assets/24670459-1528-4448-b7b3-4702444ed140)
