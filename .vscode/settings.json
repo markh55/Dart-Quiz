@@ -13,6 +13,6 @@
       "**/CVS": true
    },
    "files.autoSave": "off",
-   "workbench.colorTheme": "poimandres-noitalics",
+   "workbench.colorTheme": "poimandres-noitalics-storm",
    "terminal.integrated.gpuAcceleration": "canvas",
 }
