@@ -32,3 +32,9 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
 ### Mobile
 
 ![Mobile](https://github.com/user-attachments/assets/24670459-1528-4448-b7b3-4702444ed140)
+
+
+### Final Score
+
+![Final Score page](https://github.com/user-attachments/assets/2062be02-d3b4-496d-9cee-e35388106e5a)
+
