@@ -17,9 +17,9 @@ body {
     color: #227C9D;
 }
 
-/* Page Heading */
+/* Page Heading & score area */
 
-.heading .score-area {
+.heading, .score-area {
     display: flex;
     justify-content: center;
     align-items: center;
