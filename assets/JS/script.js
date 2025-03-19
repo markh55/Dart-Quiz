@@ -7,7 +7,7 @@ const questions = [
             {text: "T20, T14, D16", correct: false},
             {text: "T20, T20, D19", correct: true},
         ]
-    }
+    },
     {
         question: "How many world titles does Michael van Gerwen have?",
         answers: [
