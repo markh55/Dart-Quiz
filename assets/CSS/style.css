@@ -19,7 +19,7 @@ body {
 
 /* Page Heading */
 
-.heading {
+.heading .score-area {
     display: flex;
     justify-content: center;
     align-items: center;
