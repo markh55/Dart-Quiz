@@ -42,8 +42,14 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
 
 ## Colour Scheme
 
-![Colour Scheme (1)](https://github.com/user-attachments/assets/c6ce9f69-d2c1-4c87-af28-f0be986be6bf)
+![Dart-Quiz colour scheme](https://github.com/user-attachments/assets/09fd3fb1-2914-4adc-abd0-c0459cd10781)
 
-I picked this scheme as i feel the deep navy blue is rich enough to attrach the users attention in a strong & bold way I then paired this with a soft beige for the writting and quiz area to contrast the deep navy.
+
+I picked this scheme as i feel the colours compliment each other while still being easy on the eye and readable for the user.
+
+* Background colour - #227C9D
+* Headings #EFF1F3
+* Game Area #EFF1F3
+* Text within Game Area #227C9D
 
 
