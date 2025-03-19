@@ -8,6 +8,10 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
      * [User Stories](#UserStories)
      * [Wireframes](#Wirerames)
      * [Colour Scheme](#ColourScheme)
+2. [Deployment]
+3. [Testing]
+4. [Technologies Used]
+5. [Thank you's / Credits](#Thankyou's/Credits)
 
 
 ## Planning
@@ -53,7 +57,7 @@ I picked this scheme as i feel the colours compliment each other while still bei
 * Text within Game Area #227C9D
 
 
-## Thank you's / credits
+## Thank you's / Credits
 
 * Random Questions genertated from ChatGPT
 
