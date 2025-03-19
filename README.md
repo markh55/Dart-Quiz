@@ -57,7 +57,7 @@ I picked this scheme as i feel the colours compliment each other while still bei
 * Text within Game Area #227C9D
 
 
-## Thank you's / Credits
+## Thank you's/Credits
 
 * Random Questions genertated from ChatGPT
 
