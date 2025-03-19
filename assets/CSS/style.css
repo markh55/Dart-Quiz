@@ -2,6 +2,8 @@ body {
     background-color: #227C9D;
 }
 
+/* Game Area */
+
 .quiz-box {
     background-color: #EEF1F3;
     width: 90%;
@@ -15,9 +17,30 @@ body {
     color: #227C9D;
 }
 
+/* Page Heading */
+
 .heading {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #EEF1F3;
+}
+
+/* answer buttons */
+
+.btn {
+    background-color: #EEF1F3;
+    color: #227C9D;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #227C9D;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 6px;
+}
+
+/* button hover effect */
+.btn:hover {
+  font-weight: bold;
 }
