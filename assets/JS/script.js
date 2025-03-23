@@ -118,3 +118,10 @@ function showQuestion() {
         button.addEventListener("click", selectAnswer);
     });
 }
+
+function resetState() {
+    nextButton.style.display = "none";
+    while (answerButtons.firstChild) {
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
+}
