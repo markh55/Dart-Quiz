@@ -8,7 +8,7 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
      * [User Stories](#UserStories)
      * [Wireframes](#Wirerames)
      * [Colour Scheme](#ColourScheme)
-2. [Deployment]
+2. [Deployment](#deployment)
 3. [Testing]
 4. [Technologies Used]
 5. [Thank you's / Credits](#Thankyou's/Credits)
@@ -55,6 +55,41 @@ I picked this scheme as i feel the colours compliment each other while still bei
 * Headings #EFF1F3
 * Game Area #EFF1F3
 * Text within Game Area #227C9D
+
+
+## Deployment
+
+### Repository
+  
+I made a public local repository on my Github account, I then linked my repository to my VSCode account and started building.
+When writing my code I ensured that I committed my changes to the repository using clear and direct messages for any changes,this is done by doing the following in the terminal;
+
+  
+* git add . 
+* git commit -m “Enter message here” 
+* git push
+  
+I would send a commit after each change then I would push the file once i made 3 or 4 changes.
+
+
+### Hosting
+
+This is how I hosted my website: On Github I Selected my Dart-Quiz Repository, then go to;
+* Settings
+* Pages
+
+Once on the pages site I would ensure the following settings were applied;
+	Source would need to be set to ‘Deploy from branch’
+	Branch will need to be set to main and then root. 
+	Save.
+
+
+ ![Screenshot 2025-03-23 at 14 34 17](https://github.com/user-attachments/assets/66954494-2dc0-4e04-93c1-4478a26ddd97)
+
+ ![Screenshot 2025-03-23 at 14 37 49](https://github.com/user-attachments/assets/8e8af873-614d-4f6e-9d29-dc3520e4db79)
+
+
+
 
 
 ## Thank you's/Credits
