@@ -148,3 +148,18 @@ function selectAnswer(e) {
 
     nextButton.style.display = "block";
 }
+function nextQuestion() {
+    currentQuestionIndex++;
+
+    if (currentQuestionIndex < questions.length) {
+        showQuestion();
+    } else {
+        questionElement.innerHTML = `Quiz Finished! Your score: ${score}/${questions.length}`;
+        answerButtons.innerHTML = "";
+        nextButton.innerHTML = "Restart";
+        nextButton.style.display = "block";
+        nextButton.addEventListener("click", () => {
+            window.location.reload();
+        } );
+    }
+}
