@@ -99,6 +99,15 @@ const nextButton = document.getElementById("next-btn");
 let currentQuestionIndex = 0;
 let score = 0;
 
+function startQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+    nextButton.innerHTML = "Next";
+    nextButton.style.display = "none";
+    nextButton.onclick = nextQuestion;
+    showQuestion();
+}
+
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
