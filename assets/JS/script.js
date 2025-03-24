@@ -163,3 +163,7 @@ function nextQuestion() {
         } );
     }
 }
+
+nextButton.onclick = startQuiz;
+
+startQuiz();
