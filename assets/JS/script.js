@@ -36,7 +36,7 @@ const questions = [
         ]
     },
     {
-        question: "Which player is nicknamed “Bully Boy",
+        question: "Which player is nicknamed Bully Boy?",
         answers: [
             { text: "Nathan Aspinall", correct: false },
             { text: "Joe Cullen", correct: false },
@@ -102,7 +102,7 @@ let score = 0;
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
-    let questonNo = currentQuestionIndex + ;
+    let questonNo = currentQuestionIndex + 1;
     questionEliement.innerHTML = questonNo + ". " + currentQuestion.question;
     
     currentQuestion.answers.forEach(answer => {
