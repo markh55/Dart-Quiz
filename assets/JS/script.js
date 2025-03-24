@@ -5,7 +5,7 @@ const questions = [
             {text: "T19, T19, D20", correct: false},
             {text: "T20, T20, D20", correct: false},
             {text: "T20, T14, D16", correct: false},
-            {text: "T20, T20, D19", correct: true},
+            {text: "T20, T20, D18", correct: true},
         ]
     },
     {
