@@ -5,7 +5,7 @@ const questions = [
             {text: "T19, T19, D20", correct: false},
             {text: "T20, T20, D20", correct: false},
             {text: "T20, T14, D16", correct: false},
-         /** @constant {constantDataTypeHere} */   {text: "T20, T20, D18", correct: true},
+            {text: "T20, T20, D18", correct: true},
         ]
     },
     {
@@ -110,7 +110,7 @@ function startQuiz() {
 }
 
 function showQuestion() {
-    resetState();
+    resetState(); 
     let currentQuestion = questions[currentQuestionIndex];
     let questonNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questonNo + ". " + currentQuestion.question;
