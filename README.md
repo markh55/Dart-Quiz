@@ -2,16 +2,16 @@
 
 The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same time have fun and be enjoyable.
 
-## Table od Content
+## Table of Content
 
 1. [Planning](#Planning)
-     * [User Stories](#UserStories)
-     * [Wireframes](#Wirerames)
-     * [Colour Scheme](#ColourScheme)
+     * [User Stories](#user-stories)
+     * [Wireframes](#wireframes)
+     * [Colour Scheme](#colour-scheme)
 2. [Deployment](#deployment)
 3. [Testing]
 4. [Technologies Used]
-5. [Thank you's / Credits](#Thankyou's/Credits)
+5. [Credits](#credits)
 
 
 ## Planning
@@ -92,7 +92,7 @@ Once on the pages site I would ensure the following settings were applied;
 
 
 
-## Thank you's/Credits
+## Credits
 
 * Random Questions genertated from ChatGPT
 
