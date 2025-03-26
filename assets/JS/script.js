@@ -100,6 +100,12 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 
+/**
+ * Resets the quiz by setting the question index and score to their original values (0). 
+ * Hides the "Next" button and prepares it for the next question, and then displays the first question. 
+ * This function ensures the quiz starts fresh and is ready for the user.
+ */
+
 function startQuiz() {
     currentQuestionIndex = 0; // Resets the question index to start from the first question.
     score = 0; // Resets the score to 0 for a new quiz session.
@@ -120,7 +126,7 @@ function showQuestion() {
         button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
-
+ 
         if (answer.correct) {
             button.dataset.correct = answer.correct;
         }
