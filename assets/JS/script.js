@@ -5,7 +5,7 @@ const questions = [
             {text: "T19, T19, D20", correct: false},
             {text: "T20, T20, D20", correct: false},
             {text: "T20, T14, D16", correct: false},
-            {text: "T20, T20, D18", correct: true},
+         /** @constant {constantDataTypeHere} */   {text: "T20, T20, D18", correct: true},
         ]
     },
     {
@@ -99,13 +99,14 @@ const nextButton = document.getElementById("next-btn");
 let currentQuestionIndex = 0;
 let score = 0;
 
+
 function startQuiz() {
-    currentQuestionIndex = 0;
-    score = 0;
-    nextButton.innerHTML = "Next";
-    nextButton.style.display = "none";
-    nextButton.onclick = nextQuestion;
-    showQuestion();
+    currentQuestionIndex = 0; // Resets the question index to start from the first question.
+    score = 0; // Resets the score to 0 for a new quiz session.
+    nextButton.innerHTML = "Next"; // Sets the button text to "Next".
+    nextButton.style.display = "none"; // Hides the button until an answer is selected.
+    nextButton.onclick = nextQuestion; // Sets the button to call the nextQuestion function when clicked.
+    showQuestion(); // Calls the showQuestion function to display the first question.
 }
 
 function showQuestion() {
