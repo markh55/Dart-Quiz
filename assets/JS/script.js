@@ -146,10 +146,17 @@ function showQuestion() {
     });
 }
 
+/**
+ * Resets the screen by hiding the "Next" button and clearing the answer buttons.
+ * 
+ * 1. Hides the "Next" button so it’s not visible.
+ * 2. Removes all the answer buttons from the screen.
+ */
+
 function resetState() {
-    nextButton.style.display = "none";
+    nextButton.style.display = "none"; // Hides the "Next" button
     while (answerButtons.firstChild) {
-        answerButtons.removeChild(answerButtons.firstChild);
+        answerButtons.removeChild(answerButtons.firstChild); // Removes all child elements from the answer container
     }
 }
 
