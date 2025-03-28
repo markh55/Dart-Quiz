@@ -180,22 +180,29 @@ function selectAnswer(e) {
     nextButton.style.display = "block"; // Display "Next" button once an answer is selected
 }
 
-function nextQuestion() {
-    currentQuestionIndex++;
+/**
+ * Goes to the next question or wraps up the quiz if you're out of questions.
+ * - If there are more questions, it shows the next one.  
+ * - If you're done, it displays your final score and a "Restart" button.  
+ * - Clicking "Restart" reloads the page so you can play again.  
+ */
 
-    if (currentQuestionIndex < questions.length) {
-        showQuestion();
+function nextQuestion() {
+    currentQuestionIndex++; // Move to the next question
+
+    if (currentQuestionIndex < questions.length) { // If there are more questions
+        showQuestion(); // Show the next question
     } else {
-        questionElement.innerHTML = `Quiz Finished! Your score: ${score}/${questions.length}`;
-        answerButtons.innerHTML = "";
-        nextButton.innerHTML = "Restart";
-        nextButton.style.display = "block";
-        nextButton.addEventListener("click", () => {
-            window.location.reload();
+        questionElement.innerHTML = `Quiz Finished! Your score: ${score}/${questions.length}`; // Displays the final score
+        answerButtons.innerHTML = ""; // Clears any remaining answer buttons
+        nextButton.innerHTML = "Restart"; // Sets the button text to "Restart"
+        nextButton.style.display = "block"; // Shows the "Restart" button
+        nextButton.addEventListener("click", () => { // Adds an event listener to restart the quiz
+            window.location.reload(); // Reloads the page to restart the quiz
         } );
     }
 }
 
-nextButton.onclick = startQuiz;
+nextButton.onclick = startQuiz; // Starts the quiz when the page loads
 
 startQuiz();
