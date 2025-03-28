@@ -115,23 +115,34 @@ function startQuiz() {
     showQuestion(); // Calls the showQuestion function to display the first question.
 }
 
+/**
+ * Displays the current question and its answers, setting up the UI for user interaction.
+ * 
+ * 1. Clears previous question and answers using `resetState()`.
+ * 2. Retrieves and displays the current question with its number.
+ * 3. Loops through each answer, creating a button for each:
+ *    - Sets button text, adds styling, and appends it to the container.
+ * 4. If the answer is correct, adds a `data.correct` attribute.
+ * 5. Adds a click event listener to each button to trigger `selectAnswer`.
+ */
+
 function showQuestion() {
-    resetState(); 
-    let currentQuestion = questions[currentQuestionIndex];
-    let questonNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questonNo + ". " + currentQuestion.question;
+    resetState(); // Clears the previous question and answers
+    let currentQuestion = questions[currentQuestionIndex]; // Gets the current question
+    let questionNo = currentQuestionIndex + 1; // Sets the question number
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question; // Displays the current question number and text
     
-    currentQuestion.answers.forEach(answer => {
-        const button = document.createElement("button");
-        button.innerHTML = answer.text;
-        button.classList.add("btn");
-        answerButtons.appendChild(button);
+    currentQuestion.answers.forEach(answer => { // Loops through answers and creates a button
+        const button = document.createElement("button"); // Creates a new button element
+        button.innerHTML = answer.text; // Sets the button text to the answer text
+        button.classList.add("btn"); // Adds the "btn" class to the button for styling
+        answerButtons.appendChild(button); // Appends button to the answer container
  
-        if (answer.correct) {
+        if (answer.correct) { // If the answer is correct, set a data attribute
             button.dataset.correct = answer.correct;
         }
 
-        button.addEventListener("click", selectAnswer);
+        button.addEventListener("click", selectAnswer); // Adds an event listener to the button to call selectAnswer when clicked
     });
 }
 
