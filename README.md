@@ -95,5 +95,6 @@ Once on the pages site I would ensure the following settings were applied;
 ## Credits
 
 * Random Questions genertated from ChatGPT
+* Coolors for colour scheme 
 
 
