@@ -10,7 +10,7 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
      * [Colour Scheme](#colour-scheme)
 2. [Deployment](#deployment)
 3. [Testing]
-4. [Technologies Used]
+4. [Technologies Used](#technologies-used)
 5. [Credits](#credits)
 
 
@@ -90,6 +90,16 @@ Once on the pages site I would ensure the following settings were applied;
 
 
 
+## Technologies Used 
+
+### Languages
+ * HTML
+ * CSS
+ * JavaScript
+
+## Technology 
+ * Visual Studio Code ( VS Code )
+ * GitHub
 
 
 ## Credits
