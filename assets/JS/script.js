@@ -117,11 +117,10 @@ function startQuiz() {
 
 /**
  * Displays the current question and its answers, setting up the UI for user interaction.
- * 
  * 1. Clears previous question and answers using `resetState()`.
  * 2. Retrieves and displays the current question with its number.
  * 3. Loops through each answer, creating a button for each:
- *    - Sets button text, adds styling, and appends it to the container.
+    - Sets button text, adds styling, and appends it to the container.
  * 4. If the answer is correct, adds a `data.correct` attribute.
  * 5. Adds a click event listener to each button to trigger `selectAnswer`.
  */
@@ -148,7 +147,6 @@ function showQuestion() {
 
 /**
  * Resets the screen by hiding the "Next" button and clearing the answer buttons.
- * 
  * 1. Hides the "Next" button so it’s not visible.
  * 2. Removes all the answer buttons from the screen.
  */
@@ -160,19 +158,28 @@ function resetState() {
     }
 }
 
-function selectAnswer(e) {
+/**
+ * Runs when the user picks an answer.
+ * 1. Checks if the answer is right.
+ * 2. Adds a "correct" or "incorrect" class to the button.
+ * 3. Updates the score if the answer is right.
+ * 4. Shows the "Next" button to move to the next question.
+ */
+
+function selectAnswer(e) { 
     const selectedBtn = e.target;
-    const isCorrect = selectedBtn.dataset.correct === "true";
+    const isCorrect = selectedBtn.dataset.correct === "true"; // Checks if the selected answer is correct
 
     if (isCorrect) {
-        selectedBtn.classList.add("correct");
-        score++; 
+        selectedBtn.classList.add("correct"); // Adds "correct" class to the button for styling
+        score++; // Increases the score if the answer is correct
     } else {
-        selectedBtn.classList.add("incorrect");
+        selectedBtn.classList.add("incorrect"); // Adds "incorrect" class to the button for styling
     }
 
-    nextButton.style.display = "block";
+    nextButton.style.display = "block"; // Display "Next" button once an answer is selected
 }
+
 function nextQuestion() {
     currentQuestionIndex++;
 
