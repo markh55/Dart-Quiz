@@ -176,6 +176,12 @@ function selectAnswer(e) {
     } else {
         selectedBtn.classList.add("incorrect"); // Adds "incorrect" class to the button for styling
     }
+    
+         // Disable all buttons after an answer is selected
+    const allButtons = answerButtons.querySelectorAll("button");
+    allButtons.forEach(button => button.disabled = true);
+
+
 
     nextButton.style.display = "block"; // Display "Next" button once an answer is selected
 }
