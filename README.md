@@ -9,8 +9,8 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
      * [Wireframes](#wireframes)
      * [Colour Scheme](#colour-scheme)
 2. [Deployment](#deployment)
-3. [Testing]
-4. [Technologies Used]
+3. [Testing](#testing)
+4. [Technologies Used](#technologies-used)
 5. [Credits](#credits)
 
 
@@ -88,12 +88,28 @@ Once on the pages site I would ensure the following settings were applied;
 
  ![Screenshot 2025-03-23 at 14 37 49](https://github.com/user-attachments/assets/8e8af873-614d-4f6e-9d29-dc3520e4db79)
 
+## Testing
+
+### JS Hint
+
+![image](https://github.com/user-attachments/assets/c08aebe3-4d34-425c-992f-5597913f09be)
 
 
+## Technologies Used 
+
+### Languages
+ * HTML
+ * CSS
+ * JavaScript
+
+## Technology 
+ * Visual Studio Code ( VS Code )
+ * GitHub
 
 
 ## Credits
 
 * Random Questions genertated from ChatGPT
+* Coolors for colour scheme 
 
 
