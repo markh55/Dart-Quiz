@@ -94,6 +94,12 @@ Once on the pages site I would ensure the following settings were applied;
 
 ![image](https://github.com/user-attachments/assets/c08aebe3-4d34-425c-992f-5597913f09be)
 
+### Manual Testing
+
+ * While testing my quiz is fully working by completing it myself i noticed that you are able to select multiple answers at the same time, This means you could select all the possible answers and score 10/10
+  <img width="1696" alt="Screenshot 2025-03-29 at 00 34 54" src="https://github.com/user-attachments/assets/763edfef-4fbe-4bf7-b564-9c7b07c99ad6" />
+
+
 
 ## Technologies Used 
 
