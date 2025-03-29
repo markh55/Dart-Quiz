@@ -5,7 +5,7 @@ const questions = [
             {text: "T19, T19, D20", correct: false},
             {text: "T20, T20, D20", correct: false},
             {text: "T20, T14, D16", correct: false},
-            {text: "T20, T20, D18", correct: true},
+            {text: "T20, T20, D18", correct: true}
         ]
     },
     {
@@ -14,7 +14,7 @@ const questions = [
             { text: "5", correct: false },
             { text: "1", correct: false },
             { text: "0", correct: false },
-            { text: "3", correct: true },
+            { text: "3", correct: true }
         ]
     },
     {
@@ -23,7 +23,7 @@ const questions = [
             { text: "180", correct: false },
             { text: "170", correct: true },
             { text: "160", correct: false },
-            { text: "150", correct: false },
+            { text: "150", correct: false }
         ]
     },
     {
@@ -32,7 +32,7 @@ const questions = [
             { text: "Nathan Aspinall", correct: false },
             { text: "Glen Durrant", correct: false },
             { text: "Rob Cross", correct: true },
-            { text: "Dimitri Van Den Bergh", correct: false },
+            { text: "Dimitri Van Den Bergh", correct: false }
         ]
     },
     {
@@ -41,7 +41,7 @@ const questions = [
             { text: "Nathan Aspinall", correct: false },
             { text: "Joe Cullen", correct: false },
             { text: "Jonny Clayton", correct: false },
-            { text: "Michael Smith", correct: true },
+            { text: "Michael Smith", correct: true }
         ]
     },
     {
@@ -50,7 +50,7 @@ const questions = [
             { text: "Adrian Lewis", correct: false },
             { text: "Gerwyn Price", correct: true },
             { text: "Jonny Clayton", correct: false },
-            { text: "Danny Noppert", correct: false },
+            { text: "Danny Noppert", correct: false }
         ]
     },
     {
@@ -59,7 +59,7 @@ const questions = [
         { text: "5 feet 4 inches", correct: false },
         { text: "6 feet", correct: false },
         { text: "4 feet 10 inches", correct: false },
-        { text: "5 feet 8 inches", correct: true },
+        { text: "5 feet 8 inches", correct: true }
     ]
 },
 {
@@ -68,7 +68,7 @@ answers: [
     { text: "Missing three darts at double 1", correct: false },
     { text: "Needing double 1 to win", correct: true },
     { text: "Scoring three consecutive busts", correct: false },
-    { text: "Hitting only single 5s in a turn", correct: false },
+    { text: "Hitting only single 5s in a turn", correct: false }
     ]
 },
 {
@@ -77,7 +77,7 @@ answers: [
         { text: "12", correct: false },
         { text: "6", correct: false },
         { text: "15", correct: false },
-        { text: "9", correct: true },
+        { text: "9", correct: true }
         ]
     },
     {
@@ -86,7 +86,7 @@ answers: [
             { text: "1990", correct: true },
             { text: "1995", correct: false },
             { text: "1992", correct: false },
-            { text: "1998", correct: false },
+            { text: "1998", correct: false }
             ]
         },
 
