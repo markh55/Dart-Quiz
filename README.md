@@ -121,6 +121,7 @@ Once on the pages site I would ensure the following settings were applied;
 ## Credits
 
 * Random Questions genertated from ChatGPT
-* Coolors for colour scheme 
+* Coolors for colour scheme
+* stack overflow & ChatGPT for help on how to add the show correct answer if incorrect one was selected
 
 
