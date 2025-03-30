@@ -22,9 +22,19 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
   * To be simple and inviting for the user.
   * Enjoyable to play.
   * Test the users darts knowledge without losing enjoyment.
+  
 
 
 ## Wireframes
+
+For the design of the Quiz i wanted it to be inviting, simple and easy to use for the user. 
+
+Ive achieved this by doing the following;
+
+ * Heading in the middle of the page ( The Darts Quiz )
+ * Quiz box with the questions and next button within
+ * The next button will only appear when a answer is selceted
+ * Once quiz is completed a score box will appear with the score you got
 
 ### Browser
 
