@@ -4,7 +4,7 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
 
 ## Table of Content
 
-1. [Planning](#Planning)
+1. [Planning](#planning)
      * [User Stories](#user-stories)
      * [Wireframes](#wireframes)
      * [Colour Scheme](#colour-scheme)
@@ -141,6 +141,9 @@ Once on the pages site I would ensure the following settings were applied;
 
 * Random Questions genertated from ChatGPT
 * Coolors for colour scheme
-* stack overflow & ChatGPT for help on how to add the show correct answer if incorrect one was selected
+* Stack overflow & ChatGPT for help on how to add code to show correct answer if incorrect one was selected
+* W3Schools
+* Code Insitute - Love Maths project for inspiration
+* My Tutor Spence - For helping me with any stubling blocks i came accross while completing this project.
 
 
