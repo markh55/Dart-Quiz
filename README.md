@@ -12,7 +12,8 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
 3. [Testing](#testing)
 4. [Feedback](#feedback)
 5. [Technologies Used](#technologies-used)
-6. [Credits](#credits)
+6. [Project Link](#project-link)
+7. [Credits](#credits)
 
 
 ## Planning
@@ -136,6 +137,9 @@ Once on the pages site I would ensure the following settings were applied;
  * Visual Studio Code ( VS Code )
  * GitHub
 
+## Project Link
+
+https://markh55.github.io/Dart-Quiz/
 
 ## Credits
 
