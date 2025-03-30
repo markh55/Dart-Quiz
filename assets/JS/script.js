@@ -163,7 +163,8 @@ function resetState() {
  * 1. Checks if the answer is right.
  * 2. Adds a "correct" or "incorrect" class to the button.
  * 3. Updates the score if the answer is right.
- * 4. Shows the "Next" button to move to the next question.
+ * 4. shows correct answer if the answer is wrong.
+ * 5. Shows the "Next" button to move to the next question.
  */
 
 function selectAnswer(e) { 
@@ -175,8 +176,15 @@ function selectAnswer(e) {
         score++; // Increases the score if the answer is correct
     } else {
         selectedBtn.classList.add("incorrect"); // Adds "incorrect" class to the button for styling
-    }
     
+       // Show the correct answer
+       const correctBtn = answerButtons.querySelector('[data-correct="true"]');
+       if (correctBtn) {
+           correctBtn.classList.add("correct");
+       }
+    
+    }
+
          // Disable all buttons after an answer is selected
     const allButtons = answerButtons.querySelectorAll("button");
     allButtons.forEach(button => button.disabled = true);
