@@ -10,8 +10,9 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
      * [Colour Scheme](#colour-scheme)
 2. [Deployment](#deployment)
 3. [Testing](#testing)
-4. [Technologies Used](#technologies-used)
-5. [Credits](#credits)
+4. [Feedback](#feedback)
+5. [Technologies Used](#technologies-used)
+6. [Credits](#credits)
 
 
 ## Planning
@@ -102,6 +103,8 @@ Once on the pages site I would ensure the following settings were applied;
  * I've updated the code to add a const where only one answer can be selected per question to enable a fair and fun game.
   <img width="1784" alt="Screenshot 2025-03-29 at 10 49 25" src="https://github.com/user-attachments/assets/5d5a5c96-100b-4a67-bbdd-f23b1ae47b2e" />
 
+
+## Feedback
 
 
 
