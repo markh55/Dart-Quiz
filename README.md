@@ -99,6 +99,11 @@ Once on the pages site I would ensure the following settings were applied;
  * While testing my quiz is fully working by completing it myself i noticed that you are able to select multiple answers at the same time, This means you could select all the possible answers and score 10/10
   <img width="1696" alt="Screenshot 2025-03-29 at 00 34 54" src="https://github.com/user-attachments/assets/763edfef-4fbe-4bf7-b564-9c7b07c99ad6" />
 
+ * I've updated the code to add a const where only one answer can be selected per question to enable a fair and fun game.
+  <img width="1784" alt="Screenshot 2025-03-29 at 10 49 25" src="https://github.com/user-attachments/assets/5d5a5c96-100b-4a67-bbdd-f23b1ae47b2e" />
+
+
+
 
 
 ## Technologies Used 
