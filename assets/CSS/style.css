@@ -72,3 +72,16 @@ body {
     cursor: pointer;
     color: #227C9D;
 }
+
+@media screen and (max-width: 768px) {
+    .quiz-box {
+        width: 90%;
+        padding: 20px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+    #next-btn {
+        width: 60%;
+    }
+}
