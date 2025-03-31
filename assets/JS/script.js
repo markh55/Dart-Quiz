@@ -100,6 +100,8 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 
+
+
 /**
  * Resets the quiz by setting the question index and score to their original values (0). 
  * Hides the "Next" button and prepares it for the next question, and then displays the first question. 
@@ -107,12 +109,26 @@ let score = 0;
  */
 
 function startQuiz() {
+    shuffleQuestions() ; // Shuffles the questions to randomize the order
     currentQuestionIndex = 0; // Resets the question index to start from the first question.
     score = 0; // Resets the score to 0 for a new quiz session.
     nextButton.innerHTML = "Next"; // Sets the button text to "Next".
     nextButton.style.display = "none"; // Hides the button until an answer is selected.
     nextButton.onclick = nextQuestion; // Sets the button to call the nextQuestion function when clicked.
     showQuestion(); // Calls the showQuestion function to display the first question.
+}
+
+
+/**
+ * Shuffles the questions array using the Fisher-Yates algorithm to randomize the order of questions.
+ * This function ensures that each time the quiz is started, the questions appear in a different order, 
+ * providing a unique experience for the user.
+ */
+function shuffleQuestions() { //
+    for (let i = questions.length - 1; i > 0; i--) { // Iterates through the questions array in reverse order
+        let j = Math.floor(Math.random() * (i + 1)); // Generates a random index
+        [questions[i], questions[j]] = [questions[j], questions[i]]; // Swaps the current question with the randomly selected question
+    }
 }
 
 /**
