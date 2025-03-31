@@ -119,10 +119,11 @@ Once on the pages site I would ensure the following settings were applied;
 
  When sending the quiz to users to test i got the following feedback;
  * Add colour indicator to show correct or incorrect answer when clicked ( Green for correct & Red for incorrect )
+ * Randomise questions to ensure the quiz dont become predictable
  * Add show correct answer when incorrect answer was selected ( pictured below )
   <img width="1777" alt="Screenshot 2025-03-30 at 20 08 06" src="https://github.com/user-attachments/assets/31e9c2c2-eabf-4160-be11-4b7e5b203f69" />
 
-  both of these have been implimented into the final build.
+  These changes have been implimented into the final build.
 
 
 
