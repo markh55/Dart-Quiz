@@ -89,6 +89,25 @@ answers: [
             { text: "1998", correct: false }
             ]
         },
+    {
+            question: "Which player is known for his colorful mohawk and flashy outfits?",
+            answers: [
+                { text: "Michael van Gerwen", correct: false },
+                { text: "Peter Wright", correct: true },
+                { text: "James Wade", correct: false },
+                { text: "Daryl Gurney", correct: false }
+            ]
+        },
+        
+        {
+            question: "Which country hosts the PDC World Championship at Alexandra Palace?",
+            answers: [
+                { text: "Netherlands", correct: false },
+                { text: "Scotland", correct: false },
+                { text: "England", correct: true },
+                { text: "Germany", correct: false }
+            ]
+        },
 
 ]
 
