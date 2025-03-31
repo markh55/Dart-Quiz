@@ -145,9 +145,9 @@ https://markh55.github.io/Dart-Quiz/
 
 * Random Questions genertated from ChatGPT
 * Coolors for colour scheme
-* Stack overflow & ChatGPT for help on how to add code to show correct answer if incorrect one was selected
+* Stack overflow & ChatGPT for help on how to add code to show correct answer if incorrect one was selected & Randome question function
 * W3Schools
 * Code Insitute - Love Maths project for inspiration
-* My Tutor Spence - For helping me with any stubling blocks i came accross while completing this project.
+* My Tutor, Spence - For helping me with any stubling blocks i came accross while completing this project.
 
 
