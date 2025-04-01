@@ -19,6 +19,8 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
      * [Manual Testion](#manual-testing)
 6. [Feedback](#feedback)
 7. [Technologies Used](#technologies-used)
+     * [Languages](#languages)
+     * [Technology](#technology)
 8. [Project Link](#project-link)
 9. [Credits](#credits)
 
