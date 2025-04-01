@@ -10,11 +10,17 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
      * [Colour Scheme](#colour-scheme)
 2. [Final Design](#final-design)
 3. [Deployment](#deployment)
-4. [Testing](#testing)
-5. [Feedback](#feedback)
-6. [Technologies Used](#technologies-used)
-7. [Project Link](#project-link)
-8. [Credits](#credits)
+     * [Repository](#repository)
+     * [Hosting](#hosting)
+5. [Testing](#testing)
+     * [JS Hint](#js-hint)
+     * [HTML](#html)
+     * [CSS](#css)
+     * [Manual Testion](#manual-testing)
+6. [Feedback](#feedback)
+7. [Technologies Used](#technologies-used)
+8. [Project Link](#project-link)
+9. [Credits](#credits)
 
 
 ## Planning
@@ -109,12 +115,12 @@ Once on the pages site I would ensure the following settings were applied;
 
 ![image](https://github.com/user-attachments/assets/c08aebe3-4d34-425c-992f-5597913f09be)
 
-## HTML
+### HTML
 
 ![image](https://github.com/user-attachments/assets/27d77f74-1acf-4ccf-afac-59bddd8a2c06)
 
 
-## CSS
+### CSS
 
 ![image](https://github.com/user-attachments/assets/cce4f124-5547-4793-a438-32413dae87cf)
 
