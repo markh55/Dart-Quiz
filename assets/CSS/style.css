@@ -73,6 +73,8 @@ body {
     color: #227C9D;
 }
 
+
+/* Mobile view */
 @media screen and (max-width: 768px) {
     .quiz-box {
         width: 90%;
@@ -85,3 +87,34 @@ body {
         width: 60%;
     }
 }
+
+/* Tablet View */
+@media screen and (max-width: 1024px) {
+    .quiz-box {
+        width: 80%;
+        padding: 25px;
+    }
+    .btn {
+        font-size: 16px;
+    }
+    #next-btn {
+        width: 55%;
+    }
+}
+
+/* Desktop View */
+@media screen and (min-width: 1200px) {
+    .quiz-box {
+        max-width: 700px;
+        padding: 40px;
+    }
+    .btn {
+        font-size: 18px;
+        padding: 12px;
+    }
+    #next-btn {
+        width: 40%;
+    }
+}
+
+

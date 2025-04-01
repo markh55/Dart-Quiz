@@ -203,7 +203,7 @@ function resetState() {
  */
 
 function selectAnswer(e) { 
-    const selectedBtn = e.target;
+    const selectedBtn = e.target; // Gets the button that was clicked
     const isCorrect = selectedBtn.dataset.correct === "true"; // Checks if the selected answer is correct
 
     if (isCorrect) {
