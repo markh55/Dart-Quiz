@@ -8,12 +8,13 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
      * [User Stories](#user-stories)
      * [Wireframes](#wireframes)
      * [Colour Scheme](#colour-scheme)
-2. [Deployment](#deployment)
-3. [Testing](#testing)
-4. [Feedback](#feedback)
-5. [Technologies Used](#technologies-used)
-6. [Project Link](#project-link)
-7. [Credits](#credits)
+2. [Final Design](#final-design)
+3. [Deployment](#deployment)
+4. [Testing](#testing)
+5. [Feedback](#feedback)
+6. [Technologies Used](#technologies-used)
+7. [Project Link](#project-link)
+8. [Credits](#credits)
 
 
 ## Planning
@@ -67,6 +68,8 @@ I picked this scheme as i feel the colours compliment each other while still bei
 * Headings #EFF1F3
 * Game Area #EFF1F3
 * Text within Game Area #227C9D
+
+## Final Design
 
 
 ## Deployment
