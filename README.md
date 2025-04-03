@@ -80,6 +80,7 @@ I picked this scheme as i feel the colours compliment each other while still bei
 
 ## Final Design
 
+![Darts Quiz Mock](https://github.com/user-attachments/assets/0eaaadb9-b272-4771-83d3-be338306d1dc)
 
 ## Deployment
 
