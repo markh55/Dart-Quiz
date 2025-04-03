@@ -17,7 +17,7 @@ This quiz is designed to test your skills in an enjoyable way. See how well you 
      * [JS Hint](#js-hint)
      * [HTML](#html)
      * [CSS](#css)
-     * [Manual Testion](#manual-testing)
+     * [Manual Testing](#manual-testing)
 6. [Feedback](#feedback)
 7. [Technologies Used](#technologies-used)
      * [Languages](#languages)
@@ -166,7 +166,7 @@ https://markh55.github.io/Dart-Quiz/
 
 ## Credits
 
-* Random Questions genertated from ChatGPT
+* Random Questions generated from ChatGPT
 * Coolors for colour scheme
 * Stack overflow & ChatGPT for help on how to add code to show correct answer if incorrect one was selected & Randome question function
 * W3Schools
