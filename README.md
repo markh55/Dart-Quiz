@@ -117,7 +117,8 @@ Once on the pages site I would ensure the following settings were applied;
 
 ### JS Hint
 
-![image](https://github.com/user-attachments/assets/c08aebe3-4d34-425c-992f-5597913f09be)
+![JSHint](https://github.com/user-attachments/assets/a78afdb2-3fda-418e-9ca8-30c844678c73)
+
 
 ### HTML
 
