@@ -1,6 +1,7 @@
 # Dart-Quiz
 
-The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same time have fun and be enjoyable.
+The aim of the Dart Quiz is to challenge your knowledge about the game of darts while making fun and engaging. 
+This quiz is designed to test your skills in an enjoyable way. See how well you know the world of darts, and most importantly have fun!
 
 ## Table of Content
 
@@ -8,12 +9,21 @@ The aim of this Dart-Quiz is to test your knolwdge about darts, but at the same 
      * [User Stories](#user-stories)
      * [Wireframes](#wireframes)
      * [Colour Scheme](#colour-scheme)
-2. [Deployment](#deployment)
-3. [Testing](#testing)
-4. [Feedback](#feedback)
-5. [Technologies Used](#technologies-used)
-6. [Project Link](#project-link)
-7. [Credits](#credits)
+2. [Final Design](#final-design)
+3. [Deployment](#deployment)
+     * [Repository](#repository)
+     * [Hosting](#hosting)
+5. [Testing](#testing)
+     * [JS Hint](#js-hint)
+     * [HTML](#html)
+     * [CSS](#css)
+     * [Manual Testion](#manual-testing)
+6. [Feedback](#feedback)
+7. [Technologies Used](#technologies-used)
+     * [Languages](#languages)
+     * [Technology](#technology)
+8. [Project Link](#project-link)
+9. [Credits](#credits)
 
 
 ## Planning
@@ -68,6 +78,8 @@ I picked this scheme as i feel the colours compliment each other while still bei
 * Game Area #EFF1F3
 * Text within Game Area #227C9D
 
+## Final Design
+
 
 ## Deployment
 
@@ -105,6 +117,16 @@ Once on the pages site I would ensure the following settings were applied;
 ### JS Hint
 
 ![image](https://github.com/user-attachments/assets/c08aebe3-4d34-425c-992f-5597913f09be)
+
+### HTML
+
+![image](https://github.com/user-attachments/assets/27d77f74-1acf-4ccf-afac-59bddd8a2c06)
+
+
+### CSS
+
+![image](https://github.com/user-attachments/assets/cce4f124-5547-4793-a438-32413dae87cf)
+
 
 ### Manual Testing
 
@@ -149,6 +171,6 @@ https://markh55.github.io/Dart-Quiz/
 * Stack overflow & ChatGPT for help on how to add code to show correct answer if incorrect one was selected & Randome question function
 * W3Schools
 * Code Insitute - Love Maths project for inspiration
-* My Tutor, Spence - For helping me with any stubling blocks i came accross while completing this project.
+
 
 
