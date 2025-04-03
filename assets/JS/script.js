@@ -109,7 +109,7 @@ answers: [
             ]
         },
 
-]
+];
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -118,15 +118,11 @@ const nextButton = document.getElementById("next-btn");
 let currentQuestionIndex = 0;
 let score = 0;
 
-
-
-
 /**
  * Resets the quiz by setting the question index and score to their original values (0). 
  * Hides the "Next" button and prepares it for the next question, and then displays the first question. 
  * This function ensures the quiz starts fresh and is ready for the user.
  */
-
 function startQuiz() {
     shuffleQuestions() ; // Shuffles the questions to randomize the order
     currentQuestionIndex = 0; // Resets the question index to start from the first question.
@@ -136,7 +132,6 @@ function startQuiz() {
     nextButton.onclick = nextQuestion; // Sets the button to call the nextQuestion function when clicked.
     showQuestion(); // Calls the showQuestion function to display the first question.
 }
-
 
 /**
  * Shuffles the questions array using the Fisher-Yates algorithm to randomize the order of questions.
@@ -159,7 +154,6 @@ function shuffleQuestions() { //
  * 4. If the answer is correct, adds a `data.correct` attribute.
  * 5. Adds a click event listener to each button to trigger `selectAnswer`.
  */
-
 function showQuestion() {
     resetState(); // Clears the previous question and answers
     let currentQuestion = questions[currentQuestionIndex]; // Gets the current question
@@ -185,7 +179,6 @@ function showQuestion() {
  * 1. Hides the "Next" button so it’s not visible.
  * 2. Removes all the answer buttons from the screen.
  */
-
 function resetState() {
     nextButton.style.display = "none"; // Hides the "Next" button
     while (answerButtons.firstChild) {
@@ -201,7 +194,6 @@ function resetState() {
  * 4. shows correct answer if the answer is wrong.
  * 5. Shows the "Next" button to move to the next question.
  */
-
 function selectAnswer(e) { 
     const selectedBtn = e.target; // Gets the button that was clicked
     const isCorrect = selectedBtn.dataset.correct === "true"; // Checks if the selected answer is correct
@@ -219,12 +211,9 @@ function selectAnswer(e) {
        }
     
     }
-
          // Disable all buttons after an answer is selected
     const allButtons = answerButtons.querySelectorAll("button");
     allButtons.forEach(button => button.disabled = true);
-
-
 
     nextButton.style.display = "block"; // Display "Next" button once an answer is selected
 }
@@ -235,10 +224,8 @@ function selectAnswer(e) {
  * - If you're done, it displays your final score and a "Restart" button.  
  * - Clicking "Restart" reloads the page so you can play again.  
  */
-
 function nextQuestion() {
     currentQuestionIndex++; // Move to the next question
-
     if (currentQuestionIndex < questions.length) { // If there are more questions
         showQuestion(); // Show the next question
     } else {
