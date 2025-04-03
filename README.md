@@ -1,7 +1,7 @@
 # Dart-Quiz
 
 The aim of the Dart Quiz is to challenge your knowledge about the game of darts while making fun and engaging. 
-This quiz is designed to test your skills in an enjoyable way. Take your best shot, see how well you know the world of darts, and most importantly—have fun!
+This quiz is designed to test your skills in an enjoyable way.See how well you know the world of darts, and most importantly have fun!
 
 ## Table of Content
 
