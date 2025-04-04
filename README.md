@@ -32,20 +32,20 @@ This quiz is designed to test your skills in an enjoyable way. See how well you 
 
   * To be simple and inviting for the user.
   * Enjoyable to play.
-  * Test the users darts knowledge without losing enjoyment.
+  * Test the user's darts knowledge without losing enjoyment.
   
 
 
 ## Wireframes
 
-For the design of the Quiz i wanted it to be inviting, simple and easy to use for the user. 
+For the design of the quiz, I wanted it to be inviting, simple, and easy to use for the user. 
 
-Ive achieved this by doing the following;
+I've achieved this by doing the following;
 
  * Heading in the middle of the page ( The Darts Quiz )
  * Quiz box with the questions and next button within
- * The next button will only appear when a answer is selceted
- * Once quiz is completed a score box will appear with the score you got
+ * The next button will only appear when an answer is selceted
+ * Once the quiz is completed, a score box will appear showing your score.
 
 ### Browser
 
@@ -71,7 +71,7 @@ Ive achieved this by doing the following;
 ![Dart-Quiz colour scheme](https://github.com/user-attachments/assets/09fd3fb1-2914-4adc-abd0-c0459cd10781)
 
 
-I picked this scheme as i feel the colours compliment each other while still being easy on the eye and readable for the user.
+I picked this scheme as I feel the colours complement each other while still being easy on the eye and readable for the user.
 
 * Background colour - #227C9D
 * Headings #EFF1F3
