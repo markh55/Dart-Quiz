@@ -170,7 +170,7 @@ https://markh55.github.io/Dart-Quiz/
 
 * Random Questions generated from ChatGPT
 * Coolors for colour scheme
-* Stack overflow & ChatGPT for help on how to add code to show correct answer if incorrect one was selected & Random question function
+* Stack overflow & ChatGPT for help to show correct answer if incorrect one was selected & Random question function
 * W3Schools
 * Code Insitute - Love Maths project for inspiration
 
